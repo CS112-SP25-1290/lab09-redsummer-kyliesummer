@@ -18,4 +18,13 @@ import static cs112.lab09.Constants.*;
 
 public class MapController {
 
+    @FXML
+    protected void onSanFranciscoButtonClick() {
+        System.out.println("clicked SF");
+    }
+
+    @FXML
+    protected void onBisbeeButtonClick() {
+        System.out.println("clicked bisbee");
+    }
 }
